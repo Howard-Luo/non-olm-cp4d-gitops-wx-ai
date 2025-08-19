@@ -1,15 +1,15 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cpd-ws-runtimes-cluster-${appSuffix}
-  namespace: ${argocdNS}
+  name: cpd-ws-runtimes-cluster-gitops
+  namespace: openshift-gitops
 spec:
   destination:
     name: ''
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    repoURL: ${argoSourceRepoURL}
+    repoURL: https://github.com/Howard-Luo/non-olm-cp4d-gitops-wx-ai.git
     targetRevision: main
     path: repos/cpd-ws-runtimes/cluster-scope
   project: default
