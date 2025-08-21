@@ -1,6 +1,6 @@
 resources:
-  - ccs-cluster.yaml
-  - ccs.yaml
+  # - ccs-cluster.yaml
+  # - ccs.yaml
   - cpd-datarefinery-cluster.yaml
   - cpd-datarefinery.yaml
   - cpd-wml-cluster.yaml
