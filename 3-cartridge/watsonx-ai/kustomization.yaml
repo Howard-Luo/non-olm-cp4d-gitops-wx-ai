@@ -9,8 +9,8 @@ resources:
   - cpd-ws-runtimes.yaml
   - cpd-wsl-cluster.yaml
   - cpd-wsl.yaml
-  - opensearch-cluster.yaml
-  - opensearch.yaml
+  # - opensearch-cluster.yaml
+  # - opensearch.yaml
   - watsonx-ai-cluster.yaml
   - watsonx-ai-ifm-cluster.yaml
   - watsonx-ai-ifm.yaml
