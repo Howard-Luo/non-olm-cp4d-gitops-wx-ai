@@ -14,7 +14,7 @@ spec:
   source:
     path: ''
     repoURL: https://gitops-cp4d.github.io/non-olm-cp4d-gitops/repos
-    targetRevision: 5.16.0+20250422.134042.20
+    targetRevision: 5.17.0+20250618.084143.22
     chart: postgresql
     helm:
       valuesObject:
