@@ -30,6 +30,11 @@ spec:
           installConfigImageName: cpopen/cpd/olm-utils-v3
         postgresql:
           entitledImagePullPrefix: cp.icr.io
+        webhook:
+          mutating:
+            create: false
+          validating:
+            create: false
   project: default
   syncPolicy:
     automated:
