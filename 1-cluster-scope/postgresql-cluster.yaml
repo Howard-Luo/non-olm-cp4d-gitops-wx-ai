@@ -27,4 +27,9 @@ spec:
       valuesObject:
         global:
           operatorNamespace: gitops-operator
+        webhook:
+          mutating:
+            create: false
+          validating:
+            create: false
   project: default
